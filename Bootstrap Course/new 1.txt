@@ -19,16 +19,16 @@
 	
 !navigation bar
 
-<nav class="navbar navbar-default navbar-fixed-top>
+<nav class="navbar navbar-default navbar-fixed-top">
  <div class="container">
  </div>
 </nav>
   
 !add button
   <button type="button" class="navbar-toggle"
-  data-toogle="collapse"
+  data-toggle="collapse"
   data-target="navbar-collapse">
-    <span class="sr-only">toogle navigation</span>
+    <span class="sr-only">toggle navigation</span>
    <span class="icon-bar"></span>
    <span class="icon-bar"></span>
    <span class="icon-bar"></span>
@@ -41,18 +41,38 @@
    <ul class="nav navbar-nav navbar-right">
 !add list items and make it active
 <li class="active"><a href="#" > Home</a></li>
-<li> <a class="#">About</a></li>
+<li> <a href="#">About</a></li>
  <li class="dropdown">
   <a href="#" class="dropdown-toggle"
   data-toggle="dropdown"> Learn
-!add togle to Learn button 
-  <b class="caret"></b></a>
+!add toggle to Learn button 
+  <b class="caret"></b> (</a>)?
+!add items to the list, create an unordered list
+   <ul class="dropdown-menu">
+    <li class="dropdown-header">Header</li>
+	 <li><a href="#">C++</a></li>
+	 <li><a href="#">Java</a></li>
+!you can add more items with a different header
+    <li class="dropdown-header">Header 2</li>
+	 <li><a href="#">C++</a></li>
+	 <li><a href="#">Java</a></li>
+   </ul>
  </li>
    </ul>
   </div>
   
  </div>
 </nav>
+!adding responsive footers
+<div class="navbar navbar-inverse navbar-fixed-bottom>
+!add container class in order to allign you text inside the navigation bar.
+<div class="container">
+!add div class to allign text
+<div>
+</div>
+<p>copyright Alessandroweb 2016</p>
+</div>
+</div>
   
   
   
